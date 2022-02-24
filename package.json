@@ -1,0 +1,32 @@
+{
+  "name": "cw-auth-js",
+  "version": "0.1.0",
+  "description": "cosmwasm off-chain auth",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aswever/cw-auth-js.git"
+  },
+  "author": "aswever",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "@keplr-wallet/types": "^0.9.12",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.27.1",
+    "@cosmjs/crypto": "^0.27.1",
+    "@cosmjs/launchpad": "^0.27.1"
+  }
+}
